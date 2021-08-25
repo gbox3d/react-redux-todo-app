@@ -1,0 +1,19 @@
+### get todo
+GET http://localhost:7000/todos
+
+###  add todo
+POST http://localhost:7000/todos
+Content-Type: application/json
+
+{"title":"post test remote client"}
+
+### delete
+DELETE http://localhost:7000/todos/-ooOeSGOdXXxuIz_JgdSW
+Content-Type: application/json
+
+### patch complete
+PATCH http://localhost:7000/todos/JM9feuDj77mvdsWWjqX51
+Content-Type: application/json
+
+{"completed": true }
+
